@@ -53,6 +53,18 @@
               <span aria-hidden="true">&#8594;</span>
             </button>
           </li>
+          <li>
+            <button
+              class="daily-update-trigger"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="august-9-dialog"
+              data-dialog-trigger
+            >
+              <span>9th of August</span>
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </aside>
@@ -209,6 +221,28 @@
         </header>
         <h2 id="august-7-question">The daily update for 7th of August ran successfully.</h2>
         <p id="august-7-answer">
+          This daily update was executed and the page now includes the latest update entry.
+        </p>
+      </article>
+    </dialog>
+
+    <dialog
+      class="daily-update-dialog"
+      id="august-9-dialog"
+      aria-labelledby="august-9-question"
+      aria-describedby="august-9-answer"
+    >
+      <article class="daily-update-dialog-content">
+        <header class="daily-update-dialog-header">
+          <p>Daily Update / 9th of August</p>
+          <form method="dialog">
+            <button class="dialog-close" type="submit" aria-label="Close dialog" title="Close dialog">
+              <span aria-hidden="true">&#10005;</span>
+            </button>
+          </form>
+        </header>
+        <h2 id="august-9-question">The daily update for 9th of August ran successfully.</h2>
+        <p id="august-9-answer">
           This daily update was executed and the page now includes the latest update entry.
         </p>
       </article>
